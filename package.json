@@ -15,7 +15,7 @@
     "test:coverage": "bash ./scripts/provision_lib_artefacts.sh & npx etherlime coverage --solcVersion 0.5.4 && istanbul check-coverage --statements 74 --branches 62 --functions 77 --lines 74",
     "lint:contracts": "npx ethlint --dir .",
     "lint:contracts:staged": "bash ./scripts/ethlint.sh",
-    "test:deployment": "./scripts/deploy.sh ganache `seq 1 7`",
+    "test:deployment": "./scripts/deploy.sh ganache `seq 1 7` 999",
     "lint:js": "eslint .",
     "lint:js:staged": "bash ./scripts/eslint.sh"
   },
